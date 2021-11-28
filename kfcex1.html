@@ -3,186 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>menu#tenders</title>
-    <style>
-body{
-  background-color: red;
-}
-#chick{
-  width: 100%;
-}
-#chick1{
-  width: 100%;
-}
-#chick2{
-  width: 100%;
-}
-#chick3{
-  width: 100%;
-}
-#chick4{
-  width: 100%;
-}
-#chick5{
-  width: 100%;
-}
-#chick6{
-  width: 100%;
-}
-#chick7{
-  width: 100%;
-}
-#chick8{
-  width: 100%;
-}
-#chick9{
-  width: 100%;
-}
-h3{
-  color: white;
-  font-size: 35px;
-}
-.title{
-  color: white;
-  font-size: 30px;
-}
-.link:hover{
-  background-color: orange;
-}
-button {
-  border-radius: 20px;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: Black;
-  background-color: White;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-.box1 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float: left;
-  margin-left: 40px;
-  color: white;
-  font-size: 20px;
-}
-.box2 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float: left;
-  margin-left: 50px;
-  color: white;
-  font-size: 20px;
-}
-.box3 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float: left;
-  margin-left: 50px;
-  color: white;
-  font-size: 20px;
-}
-.box4 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float: left;
-  margin-left: 50px;
-  color: white;
-  font-size: 20px;
-}
-.box5 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float: left;
-  margin-left: 50px;
-  color: white;
-  font-size: 20px;
-}
-.box6 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  position: absolute;
-  top: 650px;
-  margin-left: 40px;
-  color: white;
-  font-size: 20px;
-}
-.box7 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 290px;
-  text-align: center;
-  font-family: arial;
-  position: absolute;
-  top: 650px;
-  margin-left: 390px;
-  color: white;
-  font-size: 20px;
-}
-.box8 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 290px;
-  text-align: center;
-  font-family: arial;
-  position: absolute;
-  top: 650px;
-  margin-left: 750px;
-  color: white;
-  font-size: 20px;
-}
-.box9 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 290px;
-  text-align: center;
-  font-family: arial;
-  position: absolute;
-  top: 650px;
-  margin-left: 1100px;
-  color: white;
-  font-size: 20px;
-}
-.box10 {
-  box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 290px;
-  text-align: center;
-  font-family: arial;
-  position: absolute;
-  top: 650px;
-  margin-left: 1450px;
-  color: white;
-  font-size: 20px;
-}
-.button1 {
-  border-radius: 10px;
-  position: absolute;
-  color: Black;
-  margin-top: 1100px;
-  margin-left: 820px;
-  width: 150px;
-  color: white;
-  font-size: 20px;
-}
-
-
-    </style>
+    <link rel="stylesheet" href="style3.css">
   </head>
   <body>
       <h3><b><ins>WELCOME TO KFC!</ins></b></h3>
  <div class="box1">
-   <img id="chick" src="chick.jpg">
+   <img id="chick" src="./image/chick.jpg">
  <p class="title"><b>Small Bucket Chicken</b></p>
  <p class="title"><b>Rs.200</b></p>
  <label><b>Quantity: </b></label>
@@ -192,10 +18,10 @@ button {
      <option>3</option>
       <option>4</option>
     </select>
- <p><button class="link">Add to cart</button></p>
+ <p><button class="link" onclick="note()">Add to cart</button></p>
         </div>
    <div class="box2">
-     <img id="chick1" src="chick1.jpg">
+     <img id="chick1" src="./image/chick1.jpg">
    <p class="title"><b>KFC Chicken Sandwitch</b></p>
    <p class="title"><b>Rs.100</b></p>
    <label><b>Quantity: </b></label>
@@ -206,10 +32,10 @@ button {
         <option>4</option>
       </select>
 
-   <p><button class="link">Add to cart</button></p>
+   <p><button class="link" onclick="note()">Add to cart</button></p>
      </div>
      <div class="box3">
-       <img id="chick2" src="chick2.jpg">
+       <img id="chick2" src="./image/chick2.jpg">
      <p class="title"><b>Medium Bucket Chicken </b></p>
      <p class="title"><b>Rs.600</b></p>
      <label><b>Quantity: </b></label>
@@ -219,10 +45,10 @@ button {
          <option>3</option>
           <option>4</option>
         </select>
-     <p><button class="link">Add to cart</button></p>
+     <p><button class="link" onclick="note()">Add to cart</button></p>
        </div>
        <div class="box4">
-         <img id="chick3" src="chick3.jpg">
+         <img id="chick3" src="./image/chick3.jpg">
        <p class="title"><b>Fries with boneless Chicken </b></p>
        <p class="title"><b>Rs.650</b></p>
        <label><b>Quantity: </b></label>
@@ -232,10 +58,10 @@ button {
            <option>3</option>
             <option>4</option>
           </select>
-       <p><button class="link">Add to cart</button></p>
+       <p><button class="link" onclick="note()">Add to cart</button></p>
          </div>
          <div class="box5">
-           <img id="chick4" src="chick4.jpg">
+           <img id="chick4" src="./image/chick4.jpg">
          <p class="title"><b>Special Chicken Ricebowl </b></p>
          <p class="title"><b>Rs.350</b></p>
          <label><b>Quantity: </b></label>
@@ -245,10 +71,10 @@ button {
              <option>3</option>
               <option>4</option>
             </select>
-         <p><button class="link">Add to cart</button></p>
+         <p><button class="link" onclick="note()">Add to cart</button></p>
            </div>
            <div class="box6">
-             <img id="chick5" src="chick5.jpg">
+             <img id="chick5" src="./image/chick5.jpg">
            <p class="title"><b>Diet Pepsi and Coke refresh  </b></p>
            <p class="title"><b>Rs.50</b></p>
            <label><b>Quantity: </b></label>
@@ -258,10 +84,10 @@ button {
                <option>3</option>
                 <option>4</option>
               </select>
-           <p><button class="link">Add to cart</button></p>
+           <p><button class="link" onclick="note()">Add to cart</button></p>
              </div>
              <div class="box7">
-               <img id="chick6" src="chick6.jpg">
+               <img id="chick6" src="./image/chick6.jpg">
              <p class="title"><b>creamy chocolate icecream  </b></p>
              <p class="title"><b>Rs.100</b></p>
              <label><b>Quantity: </b></label>
@@ -271,10 +97,10 @@ button {
                  <option>3</option>
                   <option>4</option>
                 </select>
-             <p><button class="link">Add to cart</button></p>
+             <p><button class="link" onclick="note()">Add to cart</button></p>
                </div>
                <div class="box8">
-                 <img id="chick7" src="chick7.jpg">
+                 <img id="chick7" src="./image/chick7.jpg">
                <p class="title"><b>Smoky Bucket Chicken</b></p>
                <p class="title"><b>Rs.400</b></p>
                <label><b>Quantity: </b></label>
@@ -284,10 +110,10 @@ button {
                    <option>3</option>
                     <option>4</option>
                   </select>
-               <p><button class="link">Add to cart</button></p>
+               <p><button class="link" onclick="note()">Add to cart</button></p>
                  </div>
                  <div class="box9">
-                   <img id="chick8" src="chick8.jpg">
+                   <img id="chick8" src="./image/chick8.jpg">
                  <p class="title"><b>Smoky Chicken Ricebowl</b></p>
                  <p class="title"><b>Rs.450</b></p>
                  <label><b>Quantity: </b></label>
@@ -297,10 +123,10 @@ button {
                      <option>3</option>
                       <option>4</option>
                     </select>
-                 <p><button class="link">Add to cart</button></p>
+                 <p><button class="link" onclick="note()">Add to cart</button></p>
                    </div>
                    <div class="box10">
-                     <img id="chick9" src="chick9.jpg">
+                     <img id="chick9" src="./image/chick9.jpg">
                    <p class="title"><b>French fries with fingers</b></p>
                    <p class="title"><b>Rs.150</b></p>
                    <label><b>Quantity: </b></label>
@@ -310,12 +136,17 @@ button {
                        <option>3</option>
                         <option>4</option>
                       </select>
-                   <p><button class="link">Add to cart</button></p>
+                   <p><button class="link" onclick="note()">Add to cart</button></p>
                      </div>
                      <div class="button1">
                        <p><button class="link"><b><i>NEXT</i></b></button></p>
                      </div>
-
+                          <script>
+                            function note(){
+                              alert("Add to cart successful");
+                            }
+                            
+                          </script>
 
 
   </body>

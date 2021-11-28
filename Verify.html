@@ -5,7 +5,7 @@
     <title>Verify#OTP</title>
     <style>
      body{
-        background-image: url('123.jpg');
+        background-image: url('./image/123.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -41,11 +41,13 @@
      .class input{
         position: absolute;
         margin-left: 200px;
+        font-size: 20px;
         top: 270px;
         border-radius: none;
         background-color: white;
         border-color: black;
-        padding: 20px;
+        padding: 10px;
+        border-radius: 10px;
         width: 450px;
     
 
@@ -54,7 +56,8 @@
         position: absolute;
         margin-top: 320px;
         margin-left: 200px;
-        width: 150px;
+        font-size:20px;
+        width: 200px;
         background-color: black;
         color: white;
         border-radius: 5px;
@@ -62,6 +65,21 @@
         cursor: pointer;
         border-radius: 20px;
      }
+     .button2{
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 480px;
+        font-size: 20px;
+        width: 200px;
+        background-color: rgb(53, 231, 22);
+        color: white;
+        border-radius: 5px;
+        border-color: rgb(255, 255, 255);;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 20px;
+     }
+
     </style>
   </head>
   <body>
@@ -70,6 +88,7 @@
        <p class="pin1"><b>Enter your Confirmation Code below</b></p>
        <p class="class"><input type="text" name="name" placeholder="Enter your Confirmation code" required></p>
        <a href="#"><button class="button1">Go back</button></a>
+       <a href="#"><button class="button2"><b>Submit</b></button></a>
    </div>
 
 
