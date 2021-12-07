@@ -115,3 +115,9 @@ body{
   margin-left: 200px;
   top: 150px;
 }
+.google{
+  position: absolute;
+  max-width: 25px;
+  top: 432px;
+  left: 120px;
+}
