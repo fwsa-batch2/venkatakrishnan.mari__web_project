@@ -124,3 +124,15 @@ body{
   top: 432px;
   left: 230px;
 }
+#checking{
+  position: absolute;
+  top: 330px;
+  left: 12%;
+}
+.show{
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  top: 307px;
+  left: 14%;
+}
