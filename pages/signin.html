@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Login Page</title>
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
   <link rel="stylesheet" href="../assets/css/style1.css">
-  </head>
-  <body vlink="#000000">
-    
-    <img id="kfc" src="../assets/images/kfc.jpg">
-    <form action="index.html">
-     <div class="box1">
-        <p class="word"><b>Welcome to KFC</b></p>
-        <p class="word1">Welcome back!Please enter your details</p>
-        <p class="word2">Email</p>
+</head>
+
+<body vlink="#000000">
+
+  <img id="kfc" src="../assets/images/kfc.jpg">
+  <form onsubmit="submitHandler()">
+    <div class="box1">
+      <p class="word"><b>Welcome to KFC</b></p>
+      <p class="word1">Welcome back!Please enter your details</p>
+      <p class="word2">Email</p>
       <p class="class"><input type="email" id="name" name="name" placeholder="Enter your Email" required></p>
       <p class="word3">Password</p>
       <p class="class1"><input type="Password" id="password" name="name" placeholder="Enter your Password" required></p>
       <p class="side"><a href="#">Forgot Password</a></p>
-    <a href="../index.html"><button class="button1" onclick="submitHandler()">Sign in</button></a>
+      <button class="button1" onsubmit="submitHandler()" type="submit">Sign in</button>
       <button class="button2">Sign in with Google</button>
       <p class="down">Don't have an account?</p>
       <p class="down1"><a href="../pages/signup.html">Sign up </a></p>
       <img class="google" src="../assets/images/google1.png">
-        </div>
-        <img id="kfc1" src="../assets/images/story.jpg">
-        <script>
-         function submitHandler(){
-           let name = document.getElementById("name").value;
-           let password = document.getElementById("password").value;
+    </div>
+    <img id="kfc1" src="../assets/images/story.jpg">
+    <script>
+      let userLists = [];
 
-           localStorage.setItem("Name" , name);
-           localStorage.setItem("Password" , password);
-                    }
-         
-        </script>
-          
-        
-        
-        </form>
-  </body>
+      function onPage() {
+        let array = JSON.parse(localStorage.getItem('Register'));
+        userLists = array;
+      }
+      onPage();
+
+      function submitHandler() {
+        event.preventDefault();
+        window.location.href = "../index.html"
+        let name = document.getElementById("name").value;
+        let password = document.getElementById("password").value;
+
+        let person = {
+          'email': name,
+          'password': password
+        };
+
+        userLists.push(person);
+        let stringify = JSON.stringify(userLists);
+        localStorage.setItem('Register', stringify)
+
+          localStorage.setItem("Name" , name);
+          localStorage.setItem("Password" , password);
+
+
+
+      }
+
+
+
+    </script>
+
+
+
+  </form>
+</body>
+
 </html>
