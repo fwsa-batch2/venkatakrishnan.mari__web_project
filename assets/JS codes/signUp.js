@@ -1,48 +1,108 @@
-let userLists = [];
+let userList = [];
 
-function onPageLoad(){
-    const users = JSON.parse(localStorage.getItem('users'));
-    if(users) {
-        userLists = users;
+function onPageLoad() {
+    let store = localStorage.getItem('registersname');
+    let users = JSON.parse(store);
+    if (users == null) {
+        userList = []
+    } else {
+        userList = users;
     }
+
 }
 
-function loginAlert(){
+function loginAlert() {
     event.preventDefault();
-    const username = document.getElementById("username").Value;
-    const email = document.getElementById("email").Value;
-    const password = document.getElementById("password").Value;
-    const confirmPassword = document.getElementById("cpassword").value;
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value.toLowerCase();
+    let password = document.getElementById("password").value;
+    
 
 
-    const customerDetails = {
+    let customerDetail = {
         "username": username,
         "email": email,
         "password": password,
-        "confirmPassword": confirmPassword
+        
     }
 
-    const isMatch = checkPassword();
 
-    if(isMatch) {
-        userLists.push(customerDetails);
-        localStorage.setItem("username", JSON.stringify(userLists));
-        window.location.href = "../pages/index.html"
-    }else{
-        alert("please check your password");
-    }
-    function checkPassword(){
-        event.preventDefault();
-        let pass = document.getElementById("password").value;
-        let cpass = document.getElementById("cpassword").value;
-        if(pass==cpass) {
-            console.log("password matched");
-            return true;
-        }
-        else{
-            return false
-        }
 
+    let isEmailAlreadyExist = emailValid(email);
+
+
+    if (isEmailAlreadyExist) {
+        alert("Email already exist or enter a valid email");
+        return;
     }
+
+    let isMatch = checkPassword();
+
+    if (isMatch) {
+        console.log()
+        userList.push(customerDetail);
+        localStorage.setItem("registersname", JSON.stringify(userList));
+        window.location.href = "../index.html";
+    }
+    else {
+        alert("please check your password")
+    }
+
+
 
 }
+
+
+
+function checkPassword() {
+    event.preventDefault();
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("cpassword").value;
+    if (password == confirmPassword) {
+        console.log("password matched");
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+
+
+
+function emailValid(current_email) {
+
+    let usernames = JSON.parse(localStorage.getItem("registersname"));
+
+    let isUsed = false;
+
+    if (usernames) {
+
+        for (i = 0; i < userList.length; i++) {
+            let user = userList[i];
+            let email = user.email;
+
+            if (current_email == email) {
+                isUsed = true;
+                break;
+            }
+        }
+
+        return isUsed;
+    }
+}
+function showPassword() {
+    let checkBox = document.getElementById("checkbox");
+    if (checkBox.checked) {
+        document.getElementById("password").type = "text";
+        document.getElementById("cpassword").type = "text";
+    }
+    else {
+        document.getElementById("password").type = "password";
+        document.getElementById("cpassword").type = "text";
+    }
+
+
+}
+onPageLoad();
+

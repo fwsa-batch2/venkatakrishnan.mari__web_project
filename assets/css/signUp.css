@@ -1,0 +1,122 @@
+.kfc {
+    width: 10%;
+}
+
+.word1 {
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 250px;
+}
+
+.word2 {
+    position: absolute;
+    font-size: 30px;
+    top: 80px;
+    left: 60px;
+}
+
+.word3 {
+    position: absolute;
+    font-size: 30px;
+    top: 210px;
+    left: 60px;
+}
+
+.word4 {
+    position: absolute;
+    font-size: 30px;
+    top: 340px;
+    left: 60px;
+}
+
+.word5 {
+    position: absolute;
+    font-size: 30px;
+    top: 470px;
+    left: 60px;
+}
+
+.name1 input {
+    position: absolute;
+    font-size: 25px;
+    top: 160px;
+    left: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.name2 input {
+    position: absolute;
+    font-size: 25px;
+    top: 290px;
+    left: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.name3 input {
+    position: absolute;
+    font-size: 25px;
+    top: 420px;
+    left: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.name4 input {
+    position: absolute;
+    font-size: 25px;
+    top: 550px;
+    left: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.box1 {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 60px;
+    left: 610px;
+    padding: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.button1 {
+    position: absolute;
+    top: 670px;
+    left: 230px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#link:hover {
+    background-color: red;
+}
+
+.hello {
+    position: absolute;
+    color: black;
+    left: 34%;
+    top: 76%;
+    font-size: 20px;
+}
+
+#checkbox {
+    position: absolute;
+    color: black;
+    left: 30%;
+    top: 629px;
+}
