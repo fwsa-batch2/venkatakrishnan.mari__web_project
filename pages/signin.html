@@ -16,10 +16,11 @@
       <p class="word"><b>Welcome to KFC</b></p>
       <p class="word1">Welcome back!Please enter your details</p>
       <p class="word2">Email</p>
-      <p class="class"><input type="email" id="name" name="name" placeholder="Enter your Email" required></p>
+      <p class="class"><input type="email" id="email" name="name" placeholder="Enter your Email" required></p>
       <p class="word3">Password</p>
       <p class="class1"><input type="Password" id="password" name="name" min="00000000001" minlength="8" maxlength="8"
-        title="Characters must have 8 characters" pattern="[A-Za-z]{3,20}" placeholder="Enter your Password" required></p>
+          title="Characters must have 8 characters" pattern="[A-Za-z0-9]{3,20}" placeholder="Enter your Password"
+          required></p>
       <p class="side"><a href="#">Forgot Password</a></p>
       <button class="button1" onsubmit="submitHandler()" type="submit">Sign in</button>
       <input type="checkbox" id="checking" onchange="check()">
@@ -30,53 +31,10 @@
       <img class="google" src="../assets/images/google1.png">
     </div>
     <img id="kfc1" src="../assets/images/story.jpg">
-    <script>
-      let userLists = [];
+    <script src="../assets/JS codes/signIn.js"></script>
 
-      function onPage() {
-        let array = JSON.parse(localStorage.getItem('Register'));
-        userLists = array;
-      }
-      onPage();
-
-      function submitHandler() {
-        event.preventDefault();
-        window.location.href = "../index.html"
-        let name = document.getElementById("name").value;
-        let password = document.getElementById("password").value;
-
-        let person = {
-          'email': name,
-          'password': password
-        };
-
-        userLists.push(person);
-        let stringify = JSON.stringify(userLists);
-        localStorage.setItem('Register', stringify)
-
-        localStorage.setItem("Name", name);
-        localStorage.setItem("Password", password);
-      }
-
-
-
-      function check() {
-        let checkbox = document.getElementById("checking");
-
-        if (checkbox.checked) {
-          document.getElementById("password").type = "text";
-        }
-        else {
-          document.getElementById("password").type = "password";
-        }
-      }
-     
-
-           
-    </script>
-
-
-
+      
+   
   </form>
 </body>
 

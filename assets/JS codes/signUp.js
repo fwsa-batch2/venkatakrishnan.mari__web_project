@@ -16,14 +16,14 @@ function loginAlert() {
     let username = document.getElementById("username").value;
     let email = document.getElementById("email").value.toLowerCase();
     let password = document.getElementById("password").value;
-    
+
 
 
     let customerDetail = {
         "username": username,
         "email": email,
         "password": password,
-        
+
     }
 
 
@@ -42,7 +42,7 @@ function loginAlert() {
         console.log()
         userList.push(customerDetail);
         localStorage.setItem("registersname", JSON.stringify(userList));
-        window.location.href = "../index.html";
+        window.location.href = "./../pages/signin.html";
     }
     else {
         alert("please check your password")
