@@ -13,14 +13,14 @@ function submitHandler() {
 
   let userDetails = JSON.parse(localStorage.getItem("registersname"));
 
-  const len = userDetails.length;
+  
 
   let usersExists = false;
 
 
 
 
-  for (i = 0; i < len; i++) {
+  for (i = 0; i < userDetails.length; i++) {
     let str = userDetails[i].email;
     let pass = userDetails[i].password;
 
