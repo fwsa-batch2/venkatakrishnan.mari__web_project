@@ -13,7 +13,7 @@ function submitHandler() {
 
   let userDetails = JSON.parse(localStorage.getItem("registersname"));
 
-  let len = userDetails.length;
+  const len = userDetails.length;
 
   let usersExists = false;
 

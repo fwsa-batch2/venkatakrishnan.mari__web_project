@@ -1,0 +1,64 @@
+h1{
+    position: absolute;
+    color: red;
+    font-size: 50px;
+    left: 40%;
+    top: 25%;
+}
+.container {
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* label {
+    display: inline-block;
+    background-color: #ddd;
+    width: 100px;
+    height: 50px;
+} */
+.ratting-wrapper{
+    position: absolute;
+    direction: rtl;
+    top: 40%;
+    left: 30%;
+}
+.ratting-wrapper input{
+    display: none;
+    
+    
+}
+.ratting-wrapper label{
+    display: inline-block;
+    width: 130px;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+.ratting-wrapper label:before{
+    content: "\2605";
+    position: absolute;
+    font-size: 40px;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    
+}
+.ratting-wrapper label:after{
+    content: "\2605";
+    position: absolute;
+    font-size: 40px;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    color: gold;
+    opacity: 0;
+}
+.ratting-wrapper label:hover:after,
+.ratting-wrapper label:hover ~ label:after,
+.ratting-wrapper input:checked ~ label:after{
+    
+    opacity: 1;
+
+}
