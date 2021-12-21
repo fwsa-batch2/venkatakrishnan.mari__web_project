@@ -30,7 +30,7 @@ p{
 }
 .link:hover{
   background-color: red ;
-  text-decoration: none;
+  
 }
 #link:hover{
   background-color: orange;
@@ -109,4 +109,7 @@ p{
   position: absolute;
   top: 50%;
   left: 10%;
+}
+#clr{
+  color: white;
 }
