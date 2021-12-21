@@ -128,7 +128,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   float: left;
   margin-left: 40px;
   color: white;
@@ -139,7 +138,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   float: left;
   margin-left: 50px;
   color: white;
@@ -150,7 +148,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   float: left;
   margin-left: 50px;
   color: white;
@@ -162,7 +159,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   float: left;
   margin-left: 50px;
   color: white;
@@ -173,7 +169,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   float: left;
   margin-left: 50px;
   color: white;
@@ -184,7 +179,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   position: absolute;
   top: 650px;
   margin-left: 40px;
@@ -196,7 +190,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 290px;
   text-align: center;
-  font-family: arial;
   position: absolute;
   top: 650px;
   margin-left: 390px;
@@ -208,7 +201,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 290px;
   text-align: center;
-  font-family: arial;
   position: absolute;
   top: 650px;
   margin-left: 750px;
@@ -220,7 +212,6 @@ button {
   box-shadow: 20px 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 290px;
   text-align: center;
-  font-family: arial;
   position: absolute;
   top: 650px;
   margin-left: 1100px;
@@ -243,7 +234,6 @@ button {
 .button1 {
   border-radius: 10px;
   position: absolute;
-  color: Black;
   margin-top: 1100px;
   margin-left: 820px;
   width: 150px;
