@@ -1,5 +1,5 @@
 function submitHandler() {
-  event.preventDefault();
+  (event).preventDefault();
 
 
   let email = document.getElementById("email").value;

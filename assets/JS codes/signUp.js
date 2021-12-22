@@ -12,7 +12,7 @@ function onPageLoad() {
 }
 
 function loginAlert() {
-    9event0.preventDefault();
+    (event).preventDefault();
     let username = document.getElementById("username").value;
     let email = document.getElementById("email").value.toLowerCase();
     let password = document.getElementById("password").value;
