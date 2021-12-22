@@ -78,8 +78,8 @@ function emailValid(current_email) {
 
     if (usernames) {
 
-        for (i = 0; i < userList.length; i++) {
-            let user = userList[i];
+        for (j = 0; j < userList.length; j++) {
+            let user = userList[j];
             let email = user.email;
 
             if (current_email == email) {
