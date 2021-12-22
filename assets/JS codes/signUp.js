@@ -12,7 +12,7 @@ function onPageLoad() {
 }
 
 function loginAlert() {
-    event.preventDefault();
+    9event0.preventDefault();
     let username = document.getElementById("username").value;
     let email = document.getElementById("email").value.toLowerCase();
     let password = document.getElementById("password").value;
@@ -78,8 +78,8 @@ function emailValid(current_email) {
 
     if (usernames) {
 
-        for (j = 0; j < userList.length; j++) {
-            let user = userList[j];
+        for (i = 0; i < userList.length; i++) {
+            let user = userList[i];
             let email = user.email;
 
             if (current_email == email) {
