@@ -1,7 +1,7 @@
 let details = [];
 
 function add(x,y,z){
-
+event.preventDefault();
     let numberQuantity = parseFloat(prompt("Enter the number of Quantities"));
     let price = z*numberQuantity;
     let allDetails = {
@@ -16,3 +16,4 @@ function add(x,y,z){
     localStorage.setItem("Orders" , JSON.stringify(details));
 
 }
+

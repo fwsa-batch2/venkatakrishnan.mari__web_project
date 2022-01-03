@@ -138,12 +138,24 @@ h1{
     background-color: red;
     color: white;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     left: 1300px;
     top: 20px;
     cursor: pointer;
     border-radius: 15px;
     font-size: 20px;
     border-color: white;
+}
+.badge{
+    position: absolute;
+    left: 1390px;
+    top: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 60px;
+    background-color: black;
+   color: white;
 }
 #login{
     position: absolute;
