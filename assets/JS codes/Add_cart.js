@@ -9,3 +9,4 @@ function cart(){
 }
 let string = cart();
 document.getElementById("cart").innerHTML = string;
+
