@@ -1,5 +1,7 @@
 ### html-project-template
 
+### Netlify link
+https://welcometokfcapp-ui-venkatakrishnan.netlify.app/
 
 ### Features
 1. LOGIN PAGE (Completed)
