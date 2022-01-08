@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin#Page</title>
+    <style>
+        .word1 {
+            position: absolute;
+            font-size: 30px;
+            top: 10px;
+            left: 150px;
+        }
+
+        .word2 {
+            position: absolute;
+            font-size: 30px;
+            top: 80px;
+            left: 60px;
+        }
+
+        .word3 {
+            position: absolute;
+            font-size: 30px;
+            top: 210px;
+            left: 60px;
+        }
+
+        .word4 {
+            position: absolute;
+            font-size: 30px;
+            top: 340px;
+            left: 60px;
+        }
+
+        .word5 {
+            position: absolute;
+            font-size: 30px;
+            top: 470px;
+            left: 60px;
+        }
+
+        .name1 input {
+            position: absolute;
+            font-size: 25px;
+            top: 160px;
+            left: 60px;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+
+        }
+
+        .name2 input {
+            position: absolute;
+            font-size: 25px;
+            top: 290px;
+            left: 60px;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+
+        }
+
+        .name3 input {
+            position: absolute;
+            font-size: 25px;
+            top: 420px;
+            left: 60px;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+
+        }
+
+        .name4 input {
+            position: absolute;
+            font-size: 25px;
+            top: 550px;
+            left: 60px;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form onsubmit="adminPage()"></form>
+    <h2 class="word1">CREATE AN ACCOUNT</h2>
+    <h2 class="word2">Username</h2>
+    <p class="name1"><input type="text" id="name" placeholder="Enter your name" required></p>
+    <!-- <h2 class="word3">Email Address</h2>
+    <p class="name2"><input type="link" placeholder="Enter your email" required></p>
+    <h2 class="word4"> Password</h2>
+    <p class="name3"><input type="link" placeholder="Enter your password" required></p>
+    <h2 class="word5">Confirm Password</h2>
+    <p class="name4"><input type="text" placeholder="Enter your confirm password" required></p>
+
+    <p class="hello"> password </p>
+    <input type="checkbox" id="checkbox" onchange="showPassword()"></p> -->
+    <button id="link" class="button1"><strong>Submit</strong> </button>
+    <script>
+        let adminAdd = [];
+        function adminPage() {
+            event.preventDefault();
+             let Name = document.getElementById("name").value;
+
+             let adminDetails = {
+
+                User : Name,
+             }
+             adminAdd.push(adminDetails);
+    localStorage.setItem("ADMIN ADD" , JSON.stringify(adminAdd));
+
+        }
+    </script>
+    </form>
+</body>
+
+</html>
