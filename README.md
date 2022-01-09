@@ -6,6 +6,7 @@ https://welcometokfcapp-ui-venkatakrishnan.netlify.app/
 ### Features
 1. LOGIN PAGE (Completed)
 2. SIGN-UP PAGE (Completed)
+3. Add to cart (completed)
 
 ### SIGN_UP PAGE
 * All inputs fields are mandatory
@@ -19,3 +20,7 @@ https://welcometokfcapp-ui-venkatakrishnan.netlify.app/
 * Email and Password should be registered already in the localstorage if it doesn't match the user is asked to create a account
 * Both the fields should match to the details already stored even anyone of the field doesn't match it will show an alert
 * If all the fields are matched correctly the user will be redirected to the main page
+
+### CART PAGE
+* All details store in localstorage and gets into another page.
+* In localstorage store important information like imagelink,cost,totalprice,number of quantity,length.

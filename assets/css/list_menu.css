@@ -152,10 +152,13 @@ h1{
     left: 1390px;
     top: 10px;
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 60px;
-    background-color: black;
-   color: white;
+    background-color: white;
+   color: red;
+}
+#demo{
+    font-size: 10px;
 }
 #login{
     position: absolute;
