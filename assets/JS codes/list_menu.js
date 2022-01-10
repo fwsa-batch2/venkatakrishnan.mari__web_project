@@ -1,7 +1,7 @@
 let details = [];
 function onPageLoad() {
     const getFromLs = JSON.parse(localStorage.getItem('Orders'));
-    // console.log(getFromLs[0]["numberQuantity"] );
+    
     if(getFromLs != null){
         console.log('w');
         details = getFromLs;
@@ -9,12 +9,12 @@ function onPageLoad() {
     }
 }
 onPageLoad();
-function add(x,y,z,){
-    event.preventDefault();
+function add(x,y,z){
+
     const numberQuantity = parseInt(prompt("Enter the number of Quantities"));
     const price = z*numberQuantity;
     const numItems = details.length;
-    // console.log(numItems);
+    console.log(numItems);
     const allDetails = {
         numberQuantity : numberQuantity,
         Totalprice : price,

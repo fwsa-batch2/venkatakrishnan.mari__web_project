@@ -10,13 +10,13 @@
 </head>
 <body>
     <img class="kfc" alt="logo" src="../assets/images/kfc.jpg">
-    <form onsubmit="loginAlert() ">
+    <form onsubmit="loginAlert(event) ">
         <div class="box1">
 
             <h2 class="word1">CREATE AN ACCOUNT</h2>
             <h2 class="word2">Username</h2>
-            <p class="name1"><Showinput type="text" id="username" pattern="[A-Za-z]{3,20}" placeholder="Enter your name"
-                    required></p>
+            <p class="name1"><input type="text" id="username" pattern="[A-Za-z]{3,20}" placeholder="Enter your name"
+         required></p>
             <h2 class="word3">Email Address</h2>
             <p class="name2"><input type="email" id="email" placeholder="Enter your email" required></p>
             <h2 class="word4"> Password</h2>

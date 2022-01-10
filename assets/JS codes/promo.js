@@ -1,6 +1,6 @@
 let proDetails = [];
 function promoCode(){
-    // event.preventDefault();
+   
     let x = document.getElementById("coupon").value;
      console.log(x);
     let couponDetails = {

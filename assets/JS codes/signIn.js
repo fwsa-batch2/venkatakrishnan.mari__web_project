@@ -1,5 +1,5 @@
-function submitHandler() {
-  (event).preventDefault();
+function submitHandler(event) {
+  event.preventDefault();
 
 
   let email = document.getElementById("email").value;
@@ -20,9 +20,9 @@ function submitHandler() {
 
 
 
-  for (i = 0; i < userDetails.length; i++) {
-    let str = userDetails[i].email;
-    let pass = userDetails[i].password;
+  for (let i of userDetails ) {
+    let str = i.email;
+    let pass = i.password;
 
 
     if (str == email && pass == Password) {
