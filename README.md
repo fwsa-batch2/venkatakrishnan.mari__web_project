@@ -1,11 +1,15 @@
-### html-project-template
+### WELCOME TO KFC
 
 ### Netlify link
 https://welcometokfcapp-ui-venkatakrishnan.netlify.app/
 
+### Sonarcloud link
+https://sonarcloud.io/project/overview?id=fwsa-batch-02_welcometokfcapp-ui
+
 ### Features
 1. LOGIN PAGE (Completed)
 2. SIGN-UP PAGE (Completed)
+3. LIST MENU (Completed)
 3. Add to cart (completed)
 
 ### SIGN_UP PAGE
@@ -21,6 +25,12 @@ https://welcometokfcapp-ui-venkatakrishnan.netlify.app/
 * Both the fields should match to the details already stored even anyone of the field doesn't match it will show an alert
 * If all the fields are matched correctly the user will be redirected to the main page
 
+### LIST MENU
+* Menu are listed by the category.
+* Adding some feast.
+
 ### CART PAGE
 * All details store in localstorage and gets into another page.
 * In localstorage store important information like imagelink,cost,totalprice,number of quantity,length.
+
+
