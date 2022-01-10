@@ -113,3 +113,12 @@ p{
 #clr{
   color: white;
 }
+.cup{
+  position: absolute;
+
+}
+#cup1{
+  width: 10%;
+  left: 30%;
+  margin-top: 50%;
+}
