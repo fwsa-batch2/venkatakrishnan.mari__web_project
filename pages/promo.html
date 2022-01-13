@@ -1,19 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promo#code</title>
-   
+    <style>
+        body {
+            background-color: red;
+        }
+
+        #savings {
+            position: absolute;
+            width: 20%;
+            top: 80px;
+            left: 250px;
+
+        }
+
+        .line {
+            position: absolute;
+            background-color: white;
+            top: 500px;
+            width: 40%;
+            font-size: 1px;
+            left: 120px;
+        }
+
+        .save {
+            position: absolute;
+            color: white;
+            top: 480px;
+            left: 300px;
+            font-size: 70px;
+            text-shadow: 1px 5px #000000;
+
+        }
+
+        .save1 {
+            position: absolute;
+            color: white;
+            top: 570px;
+            left: 130px;
+            text-shadow: 1px 5px #000000;
+            font-size: 70px;
+        }
+
+        .save2 {
+            position: absolute;
+            color: gold;
+            top: 670px;
+            left: 200px;
+            font-size: 60px;
+            text-shadow: 1px 5px #000000;
+        }
+
+        .line1 {
+            position: absolute;
+            background-color: white;
+            top: 800px;
+            width: 40%;
+            font-size: 1px;
+            left: 120px;
+        }
+
+        /* #coupon {
+            position: absolute;
+            left: 65%;
+            top: 35%;
+            font-size: 30px;
+            border-radius: 15px;
+            border-color: white;
+            padding: 10px;
+            width: 20%;
+        }
+
+        .reedem {
+            position: absolute;
+            left: 73%;
+            top: 45%;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+
+        }.promo{
+            position: absolute;
+            color: red;
+            background-color: white;
+            padding: 10px;
+            left: 64.6%;
+            width: 20%;
+            font-size: 35px;
+            border-radius: 10px;
+            text-align: center;
+            top: 27%;
+        } */
+    </style>
 </head>
+
 <body>
-   
-   <input type="text" id="coupon" placeholder="Enter your promo code">
-   <input type="button" onclick=" promoCode()" value="Reedem">
-
-
-<script src="../assets/JS codes/promo.js"></script>
+    <img id="savings" alt="saving" src="../assets/images/trans1.png">
+    <div class="line">s</div>
+    <h1 class="save">SAVE 20%</h1>
+    <h1 class="save1">ON FIRST 3 ORDERS</h1>
+    <h1 class="save2">USE CODE: KFC@22</h1>
+    <div class="line1">s</div>
+    <!-- <img  id="post" alt="post" src="../assets/images/Our New Burger.png"> -->
+    <!-- <div class="promo">
+        <strong>PROMO CODE</strong>
+    </div>
+    <input type="text" id="coupon" placeholder="Enter your promo code">
+    <button class="reedem" onclick=" promoCode()"><strong>Reedem</strong></button> -->
+    <script src="../assets/JS codes/promo.js"></script>
 </body>
 
 </html>

@@ -54,8 +54,8 @@ function loginAlert(event) {
 
 
 
-function checkPassword(event) {
-    event.preventDefault();
+function checkPassword() {
+    // event.preventDefault();
     let password = document.getElementById("password").value;
     let confirmPassword = document.getElementById("cpassword").value;
     if (password == confirmPassword) {

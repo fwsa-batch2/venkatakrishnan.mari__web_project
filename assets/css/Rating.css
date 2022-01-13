@@ -1,9 +1,12 @@
-h1{
+/* h1{
     position: absolute;
     color: red;
     font-size: 50px;
     left: 40%;
     top: 25%;
+} */
+body{
+    background-color: red;
 }
 .container {
     margin: auto;
@@ -21,7 +24,7 @@ h1{
     position: absolute;
     direction: rtl;
     top: 40%;
-    left: 30%;
+    left: 40.5%;
 }
 .ratting-wrapper input{
     display: none;
@@ -30,7 +33,7 @@ h1{
 }
 .ratting-wrapper label{
     display: inline-block;
-    width: 130px;
+    width: 60px;
     position: relative;
     cursor: pointer;
     
@@ -43,6 +46,7 @@ h1{
     display: inline-block;
     top: 0px;
     left: 0px;
+    color: white;
     
 }
 .ratting-wrapper label:after{

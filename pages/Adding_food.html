@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add#food</title>
+</head>
+
+<body>
+  <form onsubmit="addingFood()">
+  <input id="fname" type="text" placeholder="Enter the Food name" required>
+  <input id="fprice" type="number" placeholder="Enter the Price" required>
+  <input id="flink" type="text" placeholder="Enter the Link" required>
+  
+
+  <label for="foods">Catergory:</label>
+  <select name="food" id="selectCat">
+    <option value="Featured">Featured</option>
+    <option value="Buckets">Buckets</option>
+    <option value="Trending">Trending</option>
+    <option value="New year feast">New year feast</option>
+    <option value="Burger">Burger</option>
+    <option value="Rice Bowls">Rice Bowls</option>
+    <option value="Snacks">Snacks</option>
+    <option value="Beverage">Beverage</option>
+  </select>
+
+  <button>Submit</button>
+  <script>
+    // function PageOnLoad() {
+    //   const getFromRs = JSON.parse(localStorage.getItem('addDetails'));
+    //   if (getFromRs != null) {
+    //     console.log('R');
+    //     foodDetails = getFromRs;
+    //     return foodDetails;
+    //   }
+    // }
+
+    function addingFood() {
+      let foodName = document.getElementById("fname").value;
+      let price = document.getElementById("fprice").value;
+      let link = document.getElementById("flink").value;
+      let selct = document.getElementById("selectCat").value;
+
+
+      const foodAddingdetails = {
+        FoodName: foodName,
+        FoodPrice: price,
+        Link: link,
+        Catergory: selct,
+      };
+
+   let menuList = JSON.parse(localStorage.getItem("addDetails"));
+   if(menuList == null){
+     menuList = []
+   }
+      menuList.push(foodAddingdetails);
+      localStorage.setItem("addDetails", JSON.stringify(menuList));
+
+
+
+
+alert("Details Submitted succesfully");
+    }
+
+
+    // pageOnLoad();
+  </script>
+  </form>
+</body>
+
+</html>
