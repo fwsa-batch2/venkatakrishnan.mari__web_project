@@ -1,0 +1,72 @@
+body{
+   background-image: url("../assets/images/123.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+ 
+
+}
+.box{
+   background-color: white;
+   width: 350px;
+   position: absolute;
+   height: 650px;
+   color: red;
+   font-size: 45px;
+   padding-right: 500px;
+   margin-left: 500px;
+   top: 150px;
+}
+.pin{
+   color: darkblue;
+   position: absolute;
+   margin-left: 200px;
+   top: 20px;
+   font-size: 60px;
+}
+.pin1{
+   color: black;
+   position: absolute;
+   margin-left: 250px;
+   top: 150px;
+   font-size: 25px;
+   
+}
+.class input{
+   position: absolute;
+   margin-left: 200px;
+   top: 270px;
+   font-size: 20px;
+   background-color: white;
+   border-color: black;
+   padding: 10px;
+   border-radius: 10px;
+   width: 450px;
+
+
+}
+.button1{
+   position: absolute;
+   margin-top: 320px;
+   margin-left: 200px;
+   width: 200px;
+   font-size: 20px;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 20px;
+}
+.button2{
+   position: absolute;
+   margin-top: 320px;
+   margin-left: 480px;
+   width: 200px;
+   font-size: 20px;
+   background-color: rgb(53, 231, 22);
+   color: white;
+   border-color: rgb(255, 255, 255);
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 20px;
+}
