@@ -1,6 +1,4 @@
-/*   =========================================   */
 
-/* Layout */
 
 body{
     display: flex;
@@ -96,20 +94,17 @@ body .main-section header{
 }
 
 
-/*  ==========================================  */
 
 .card-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* gap: 40px; */
+   
 }
 
 .card-container .card{
     display: block;
-    /* max-width: 300px; */
-    /* flex: 1 1 30%; */
     flex-grow: 0;
     width: calc(100 * (1/4) - 10px );
     margin: 0px 40px;
