@@ -15,7 +15,7 @@ https://sonarcloud.io/project/overview?id=fwsa-batch-02_welcometokfcapp-ui
 
 ### SIGN_UP PAGE
 * All inputs fields are mandatory
-* Username can't be empty and username should contain atleast 3 characters
+* Username can't be empty and username .
 * Email Id should contain atleast two characters before "@" and should have "."
 * Password should be between 8 to 10 and it should have atleast one uppercase and special character
 * Confirm Password should be between 8 to 10 and it should have atleast one uppercase and special character
