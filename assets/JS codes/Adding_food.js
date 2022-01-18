@@ -23,4 +23,5 @@ function addingFood() {
 
 
     alert("Details Submitted succesfully");
+    window.location.href = "../pages/list_menu.html";
 }

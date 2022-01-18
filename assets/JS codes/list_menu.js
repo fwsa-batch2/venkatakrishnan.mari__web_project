@@ -1,11 +1,11 @@
-let details = [];
+let detail = [];
 function onPageLoad() {
     const getFromLs = JSON.parse(localStorage.getItem('Orders'));
 
     if (getFromLs != null) {
         console.log('w');
-        details = getFromLs;
-        return details;
+        detail = getFromLs;
+        return detail;
     }
 }
 onPageLoad();
@@ -25,10 +25,9 @@ function add(x, y, z) {
 
     }
     console.log(allDetails);
-    details.push(allDetails);
-    localStorage.setItem("Orders", JSON.stringify(details));
+    detail.push(allDetails);
+    localStorage.setItem("Orders", JSON.stringify(detail));
     document.getElementById('demo').innerHTML = numItems + 1;
-    console.log("Hello world");
 }
 
 

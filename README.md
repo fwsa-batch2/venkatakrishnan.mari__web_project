@@ -33,4 +33,8 @@ https://sonarcloud.io/project/overview?id=fwsa-batch-02_welcometokfcapp-ui
 * All details store in localstorage and gets into another page.
 * In localstorage store important information like imagelink,cost,totalprice,number of quantity,length.
 
+### ADDING FOOD
+* Adding food details like foodname,foodprice,link,Catergory.
+* 
+
 
