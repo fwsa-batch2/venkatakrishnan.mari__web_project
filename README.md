@@ -10,7 +10,8 @@ https://sonarcloud.io/project/overview?id=fwsa-batch-02_welcometokfcapp-ui
 1. LOGIN PAGE (Completed)
 2. SIGN-UP PAGE (Completed)
 3. LIST MENU (Completed)
-3. Add to cart (completed)
+4. ADD TO CART (Completed)
+5. ADMIN PAGE (Completed)
 
 ### SIGN_UP PAGE
 * All inputs fields are mandatory
@@ -33,8 +34,11 @@ https://sonarcloud.io/project/overview?id=fwsa-batch-02_welcometokfcapp-ui
 * All details store in localstorage and gets into another page.
 * In localstorage store important information like imagelink,cost,totalprice,number of quantity,length.
 
-### ADDING FOOD
+### ADMIN  PAGE 
 * Adding food details like foodname,foodprice,link,Catergory.
-* 
+* If you click "submit button" all details are submitted on the local storage.
+* In local storage separate all details.
+
+
 
 
