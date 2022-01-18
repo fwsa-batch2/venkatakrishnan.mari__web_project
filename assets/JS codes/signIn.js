@@ -13,14 +13,14 @@ function submitHandler(event) {
 
   let userDetails = JSON.parse(localStorage.getItem("registersname"));
 
-  
+
 
   let usersExists = false;
 
 
 
 
-  for (let i of userDetails ) {
+  for (let i of userDetails) {
     let str = i.email;
     let pass = i.password;
 
@@ -37,6 +37,7 @@ function submitHandler(event) {
     alert("Wrong Password");
     return null;
   }
+
 }
 
 

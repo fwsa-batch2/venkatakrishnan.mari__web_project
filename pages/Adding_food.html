@@ -10,15 +10,19 @@
 </head>
 
 <body>
+  <img src="../assets/images/kfc.jpg" alt="logo" class="logo">
   <form onsubmit="addingFood()">
     <div class="box">
-      <h1>Admin Page</h1>
-      <input id="fname" type="text" placeholder="Enter the Food name" required>
-      <input id="fprice" type="number" placeholder="Enter the Price" required>
-      <input id="flink" type="text" placeholder="Enter the Link" required>
+      <h1>Admin Page:</h1>
+      <h1 class="fdn">Food Name:</h1>
+      <h1 class="fdp">Food Price:</h1>
+      <h1 class="fdl">Link:</h1>
+      <h1 class="cat">Catergory:</h1>
+      <input id="fname" class="first" type="text" placeholder="Enter the Food name" required>
+      <input id="fprice" class="second" type="number" placeholder="Enter the Price" required>
+      <input id="flink" class="third" type="text" placeholder="Enter the Link" required>
 
 
-      <label for="foods">Catergory:</label>
       <select name="food" id="selectCat">
         <option value="Featured">Featured</option>
         <option value="Buckets">Buckets</option>

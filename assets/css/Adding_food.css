@@ -15,7 +15,7 @@ body{
     position: relative;
     color: black;
     top: -200px;
-    left: 100px;
+    left: 110px;
   }
   .sub{
     position: absolute;
@@ -26,4 +26,76 @@ body{
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
+
   }
+  .sub:hover{
+    background-color: red;
+  }
+  .first {
+    position: absolute;
+    font-size: 20px;
+    left: 30%;
+    top: 20%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+   .second{
+    position: absolute;
+    font-size: 20px;
+    left: 30%;
+    top: 35%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .third{
+    position: absolute;
+    font-size: 20px;
+    left: 30%;
+    top: 50%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #selectCat{
+    position: absolute;
+    font-size: 20px;
+    width: 53%;
+    border-radius: 10px;
+    padding: 10px;
+    left: 30%;
+    top: 65%;
+    background-color: white;
+  }
+  .fdn{
+    position: absolute;
+    font-size: 30px;
+    left: 75px;
+    top: 80px;
+  }
+  .fdp{
+    position: absolute;
+    font-size: 30px;
+    left: 75px;
+    top: 150px;
+  }
+  .fdl{
+    position: absolute;
+    font-size: 30px;
+    left: 150px;
+    top: 220px;
+  }
+  .cat{
+    position: absolute;
+    font-size: 30px;
+    left: 80px;
+    top: 294px;
+  }
+  .logo{
+    width: 10%;
+  }
+  
+    
+  
