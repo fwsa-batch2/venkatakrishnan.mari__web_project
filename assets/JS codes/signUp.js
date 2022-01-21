@@ -34,6 +34,7 @@ function loginAlert(event) {
         console.log()
         userList.push(customerDetail);
         localStorage.setItem("registersname", JSON.stringify(userList));
+        alert("Welcome to KFC");
         window.location.href = "./../pages/signin.html";
     }
     else {
