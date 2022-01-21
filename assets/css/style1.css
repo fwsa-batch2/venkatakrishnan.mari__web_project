@@ -104,7 +104,6 @@ body{
   color: Grey;
   font-size: 20px;
 }
-
 .box1{
   background-color: white;
   width: 400px;
@@ -116,7 +115,6 @@ body{
   margin-left: 200px;
   top: 150px;
   border-radius: 10px;
-  
 }
 .google{
   position: absolute;

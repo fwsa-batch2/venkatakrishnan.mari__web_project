@@ -4,7 +4,6 @@ function addingFood() {
     let link = document.getElementById("flink").value;
     let selct = document.getElementById("selectCat").value;
 
-
     const foodAddingdetails = {
         FoodName: foodName,
         FoodPrice: price,
@@ -18,10 +17,6 @@ function addingFood() {
     }
     menuList.push(foodAddingdetails);
     localStorage.setItem("addDetails", JSON.stringify(menuList));
-
-
-
-
     alert("Details Submitted succesfully");
     window.location.href = "../pages/list_menu.html";
 }

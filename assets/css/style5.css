@@ -3,8 +3,6 @@ body{
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: 100% 100%;
- 
-
 }
 .box{
    background-color: white;
@@ -29,8 +27,7 @@ body{
    position: absolute;
    margin-left: 250px;
    top: 150px;
-   font-size: 25px;
-   
+   font-size: 25px; 
 }
 .class input{
    position: absolute;
@@ -42,8 +39,6 @@ body{
    padding: 10px;
    border-radius: 10px;
    width: 450px;
-
-
 }
 .button1{
    position: absolute;

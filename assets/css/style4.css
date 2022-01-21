@@ -9,7 +9,6 @@ h1 {
     left: 6%;
     top: 15%;
 }
-
 .back1 {
     position: absolute;
     background-color: red;
@@ -20,7 +19,6 @@ h1 {
     left: 0px;
     right: 0px;
 }
-
 .back2 {
     position: absolute;
     background-color: white;
@@ -30,116 +28,92 @@ h1 {
     left: 0px;
     right: 0px;
 }
-
 #double1 {
     position: absolute;
     top: 16%;
     left: 63%;
     width: 30%;
-
 }
-
 #double2 {
     position: absolute;
     top: 18%;
     left: 10%;
     width: 30%;
-
 }
-
 #double3 {
     position: absolute;
     top: 53%;
     left: 60%;
     width: 30%;
-
 }
-
 #double4 {
     position: absolute;
     top: 350%;
     left: 10px;
     width: 75%;
-
 }
 #double5{
     position: absolute;
     top: 110%;
     left: 70%;
 }
-
 h3 {
     position: absolute;
     left: 10%;
     top: 80px;
     width: 30%;
 }
-
 .Ans {
     position: absolute;
     top: 130px;
     left: 10%;
     font-size: 30px;
-
 }
-
 .step1 {
     position: absolute;
     font-size: 25px;
     top: 500px;
-
 }
-
 .step2 {
     position: absolute;
     font-size: 25px;
     top: 1030px;
     left: 15%;
-
 }
-
 .step3 {
     position: absolute;
     font-size: 25px;
     top: 1680px;
     left: 55%;
-
 }
-
 .inspect {
     position: absolute;
     font-size: 50px;
     top: 530px;
 }
-
 .inspect1 {
     position: absolute;
     font-size: 35px;
     top: 630px;
-
 }
-
 .season {
     position: absolute;
     font-size: 50px;
     top: 1060px;
     left: 14.4%;
 }
-
 .season1 {
     position: absolute;
     font-size: 35px;
     top: 1160px;
     left: 14.4%;
 }
-
 .cook {
     position: absolute;
     font-size: 50px;
     top: 1700px;
     left: 55%;
 }
-
 .cook1 {
     position: absolute;
     font-size: 35px;

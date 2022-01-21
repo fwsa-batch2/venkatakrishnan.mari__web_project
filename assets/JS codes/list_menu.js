@@ -22,15 +22,12 @@ function add(x, y, z) {
         product: x,
         cost: z,
         lth: numItems,
-
     }
     console.log(allDetails);
     detail.push(allDetails);
     localStorage.setItem("Orders", JSON.stringify(detail));
     document.getElementById('demo').innerHTML = numItems + 1;
 }
-
-
 
 function subMenuList() {
     let trending = [];
@@ -41,7 +38,6 @@ function subMenuList() {
     let snacks = [];
     let beverage = [];
     let newyf = [];
-
 
     let allDetails = JSON.parse(localStorage.getItem("addDetails"));
     for (let i of allDetails) {
@@ -81,8 +77,6 @@ function subMenuList() {
     }
 }
 
-
-
 function createMenu(x, y) {
     let str = "";
     for (let i of x) {
@@ -98,7 +92,6 @@ function createMenu(x, y) {
             </div>
         `
     }
-
     document.getElementById(y).innerHTML = str;
 }
 subMenuList();

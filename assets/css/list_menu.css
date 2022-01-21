@@ -1,5 +1,3 @@
-
-
 body{
     display: flex;
     flex-direction: row;
@@ -34,8 +32,7 @@ header h1{
    padding: 20px;
    font-size: 1.5em;
     display: block;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
 header a{
     text-decoration: none;
@@ -62,61 +59,48 @@ body aside{
     height: 100vh;
     flex: 1 1 300px;
     display: block;
-    align-items: center;
-
-    
+    align-items: center;  
 }
 nav ul li{
     padding-bottom: 20px;
     text-decoration: solid;
     cursor: pointer;
-
 }
 nav ul li:hover{
     text-decoration: underline;
 }
 nav{
     margin-top: 80px;
-
 }
-
 body .main-section{
     max-height: 100vh;
     flex: 1 1 100%;
     background-color: lightgrey;
     overflow-y: scroll;
 }
-
 body .main-section header{
     height: 100px;
     background-color: whitesmoke;
     width: 100%;
 }
-
-
-
 .card-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-   
 }
-
 .card-container .card{
     display: block;
     flex-grow: 0;
     width: calc(100 * (1/4) - 10px );
     margin: 0px 40px;
 }
-
 .card-container .card img{
     width: 300px;
     height: 300px;
     display: block;  
     background-color: white; 
 }
-
 .card-container .card .card-body p{
     margin-top: 20px;
     font-size: 20px;

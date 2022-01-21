@@ -4,42 +4,36 @@ body{
 .kfc {
     width: 10%;
 }
-
 .word1 {
     position: absolute;
     font-size: 30px;
     top: 10px;
     left: 150px;
 }
-
 .word2 {
     position: absolute;
     font-size: 30px;
     top: 80px;
     left: 60px;
 }
-
 .word3 {
     position: absolute;
     font-size: 30px;
     top: 210px;
     left: 60px;
 }
-
 .word4 {
     position: absolute;
     font-size: 30px;
     top: 340px;
     left: 60px;
 }
-
 .word5 {
     position: absolute;
     font-size: 30px;
     top: 470px;
     left: 60px;
 }
-
 .name1 input {
     position: absolute;
     font-size: 25px;
@@ -48,9 +42,7 @@ body{
     padding: 10px;
     width: 400px;
     border-radius: 10px;
-
 }
-
 .name2 input {
     position: absolute;
     font-size: 25px;
@@ -59,9 +51,7 @@ body{
     padding: 10px;
     width: 400px;
     border-radius: 10px;
-
 }
-
 .name3 input {
     position: absolute;
     font-size: 25px;
@@ -70,9 +60,7 @@ body{
     padding: 10px;
     width: 400px;
     border-radius: 10px;
-
 }
-
 .name4 input {
     position: absolute;
     font-size: 25px;
@@ -81,9 +69,7 @@ body{
     padding: 10px;
     width: 400px;
     border-radius: 10px;
-
 }
-
 .box1 {
     position: absolute;
     background-color: white;
@@ -104,11 +90,9 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
-
 #link:hover {
     background-color: red;
 }
-
 .hello {
     position: absolute;
     color: black;
@@ -116,7 +100,6 @@ body{
     top: 80%;
     font-size: 20px;
 }
-
 #checkbox {
     position: absolute;
     color: black;
@@ -139,5 +122,4 @@ body{
     width: 20%;
     left: 300px;
     top: 450px;
-
 }

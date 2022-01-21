@@ -1,5 +1,4 @@
 let userList = [];
-
 function onPageLoad() {
     let store = localStorage.getItem('registersname');
     let users = JSON.parse(store);
@@ -8,7 +7,6 @@ function onPageLoad() {
     } else {
         userList = users;
     }
-
 }
 
 function loginAlert(event) {
@@ -17,19 +15,13 @@ function loginAlert(event) {
     let email = document.getElementById("email").value.toLowerCase();
     let password = document.getElementById("password").value;
 
-
-
     let customerDetail = {
         "username": username,
         "email": email,
         "password": password,
-
     }
 
-
-
     let isEmailAlreadyExist = emailValid(email);
-
 
     if (isEmailAlreadyExist) {
         alert("Email already exist or enter a valid email");
@@ -47,12 +39,7 @@ function loginAlert(event) {
     else {
         alert("please check your password")
     }
-
-
-
 }
-
-
 
 function checkPassword() {
     let password = document.getElementById("password").value;
@@ -65,9 +52,6 @@ function checkPassword() {
         return false;
     }
 }
-
-
-
 
 function emailValid(current_email) {
 
@@ -100,8 +84,6 @@ function showPassword() {
         document.getElementById("password").type = "password";
         document.getElementById("cpassword").type = "text";
     }
-
-
 }
 onPageLoad();
 
