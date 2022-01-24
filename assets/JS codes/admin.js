@@ -1,7 +1,7 @@
 function submitHandler(event){
 event.preventDefault()
     const adminEmail = "admin@gmail.com"
-    const adminPass = "admin"
+    const adminPass = "admin434"
     
     let adminMailInput = document.getElementById("email").value;
     let adminPassInput = document.getElementById("pass").value;

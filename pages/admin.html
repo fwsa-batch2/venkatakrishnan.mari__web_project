@@ -7,23 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>admin#login</title>
     <style>
+        body{
+            background-color: red;
+        }
+        .box{
+            position: absolute;
+            background-color: white;
+            padding-left: 150px;
+            padding-top: 100px;
+            padding-bottom: 200px;
+            left: 680px;
+            top: 250px;
+            border-radius: 10px;
+            width: 20%;
+        }
         .login{
             position: absolute;
-            left: 500px;
+            color: black;
+            font-size: 35px;
+            top: 0px;
+            left: 190px;
+
         }
+        #email{
+            position: absolute;
+            top: 100px;
+            width: 290px;
+            padding-left: 10px;
+            font-size: 20px;
+            padding: 5px;
+            
+        }
+        #pass{
+            position: absolute;
+            top: 180px;
+            width: 290px;
+            padding-left: 10px;
+            font-size: 20px;
+            padding: 5px;
+           
+        }
+        .submit{
+            position: absolute;
+            top: 250px;
+            background-color: white;
+            font-size: 20px;
+            cursor: pointer;
+            left: 220px;
+            border-radius: 10px;
+        }
+        #logo{
+            width: 10%;
+        }
+
+       
     </style>
 </head>
 
 <body>
-    <img src="../pages/Adding_food.html" alt="" id="logo">
-    <h1 class="login">Admin Login</h1>
+    <img src="../assets/images/kfc.jpg" alt="logo" id="logo">
+    <img src="../pages/list_menu.html" alt="" id="ret">
     <form onsubmit="submitHandler(event)">
         <div class="box">
-        <label for="login">email :</label>
-        <input type="email" id="email" placeholder="enter your email" required>
-        <label for="login">Password :</label>
-        <input type="text" id="pass" placeholder="enter your password" required>
-        <button>Submit</button>
+            <p class="login"><strong>Admin Login</strong></p>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="text" id="pass" placeholder="Enter your password" required>
+        <button class="submit">Submit</button>
     </div>
     
         <script src="../assets/JS codes/admin.js"></script>

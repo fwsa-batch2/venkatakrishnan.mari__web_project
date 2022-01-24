@@ -13,7 +13,7 @@ function add(x, y, z) {
     let details = JSON.parse(localStorage.getItem('Orders'));
     const numberQuantity = parseInt(prompt("Enter the number of Quantities"));
     const price = z * numberQuantity;
-    const numItems = details.length;
+    const numItems = detail.length;
     console.log(numItems);
     const allDetails = {
         numberQuantity: numberQuantity,
