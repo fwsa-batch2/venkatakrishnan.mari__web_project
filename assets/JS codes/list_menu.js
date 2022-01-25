@@ -10,7 +10,7 @@ function onPageLoad() {
 }
 onPageLoad();
 function add(x, y, z) {
-    let details = JSON.parse(localStorage.getItem('Orders'));
+    let detail = JSON.parse(localStorage.getItem('Orders'));
     const numberQuantity = parseInt(prompt("Enter the number of Quantities"));
     const price = z * numberQuantity;
     const numItems = detail.length;
